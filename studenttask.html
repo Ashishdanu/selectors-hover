@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            width: 100vw;
+            background-color:#F7F7FF);
+            padding:30px ;
+            margin: 0;
+
+
+        }
+        nav>.container>.card{
+            width: 180px;
+            padding: 20px;
+            display:inline-block;
+            align-items: center;
+            box-shadow: rgb(1, 0, 0);
+            margin-left: 40px;
+            background-color: white;
+            border-radius: 20px;
+            transition: transform 0.5s ease , background-color 0.5s ease; /* Smooth transition */
+        }
+        nav>.container>.card:hover{
+            box-shadow: 5px 5px 10px rgb(0, 0, 0,0.50);
+            transform: scale(1.1); /* Increase size by 10% */
+           
+            }
+            nav > .container > .card:nth-child(3):hover {
+    transform: scale(2); /* Double the size */
+    background-color: rgb(143, 174, 129); /* Change background color */
+}
+        nav>.container>.card img{
+            display: block;
+            margin: auto;
+        }
+        nav>.container>.card>.i1{
+            color: rgb(117,103,104);
+            text-align: center;
+        }
+        nav>.container>.card>.#i2{
+            
+
+        }
+        nav>.container>.card>.i2{
+            color:rgb(110,113,204);
+            text-align: center;
+        }
+/*    
+        .test h1+p{
+            color: rgb(103, 117, 109);
+            text-align: center;
+            
+        } */
+         
+
+
+    </style>
+  
+    
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="card">
+                <img src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-1.svg"/>
+                <h1 class="i1" >Hiring Process</h1>
+                <h1 class="i2">  3 Days</h1>
+            </div>
+            <div class="card">
+                <img src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-2.svg"/>
+                <h1 class="i1">Offer Acceptance</h1>
+                <h1  class="i2"> 90%</h1>
+            </div>
+            <div class="card">
+                <img src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-3.svg"/>
+                <h1 class="i1">Retention Rates</h1>
+                <h1  class="i2"> 90%</h1>
+            </div>
+            <div class="card">
+                <img src="https://www.masaischool.com/images/hire-masai-grads/HiringFacts/hiring-facts-4.svg"/>
+                <h1 class="i1">Hiring Partners</h1>
+                <h1  class="i2"> 4000+</h1>
+            </div>
+        </div>
+    </nav>
+
+    
+</body>
+</html>
